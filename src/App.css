@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Russo;
+  src: url(./fonts/RussoOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: #EBEFF2;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  background-color: #FFFFFF;
+  width: 430px;
+  height: 636px;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.todo-icon {
+  color: #007FDB;
+  width: 236px;
+  height: 116px;
+  font-weight: 700;
+  font-size: 96px;
+  margin-right: 322px;
+}
+
+.card-header {
+  width: 100%;
+  height: 202px;
+  background-image: url(../src/image/istockphoto-1285308242-612x612.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: "Russo";
+  background-color: red;
+}
+
+.wrapper-div {
+  padding: 29px;
+}
+
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  width: 100%;
+}
+
+.input {
+  width: 275px;
+  height: 49px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EBEFF2;
+  margin-right: 10px;
+}
+
+.button-plus {
+  background-color: #20EEB0;
+  width: 88px;
+  height: 49px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 35px;
+  border: none;
+}
+
+.todos {
+  background-color: #FFFFFF;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  gap: 24px;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.todo-items {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.todos-text {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.done-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: #20EEB0;
+  color: #FFFFFF;
+}
+
+.done-button.done {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: #20EEB0;
+  background-color: #20EEB0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.delete-button {
+  color: #FF4545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 18px;
+}
+
